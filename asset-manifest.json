@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Man-Ki-Baat/static/css/main.1882a7b5.chunk.css",
-    "main.js": "/Man-Ki-Baat/static/js/main.0628bfad.chunk.js",
-    "main.js.map": "/Man-Ki-Baat/static/js/main.0628bfad.chunk.js.map",
+    "main.css": "/Man-Ki-Baat/static/css/main.2812e673.chunk.css",
+    "main.js": "/Man-Ki-Baat/static/js/main.44c26022.chunk.js",
+    "main.js.map": "/Man-Ki-Baat/static/js/main.44c26022.chunk.js.map",
     "runtime-main.js": "/Man-Ki-Baat/static/js/runtime-main.a6a11e3e.js",
     "runtime-main.js.map": "/Man-Ki-Baat/static/js/runtime-main.a6a11e3e.js.map",
-    "static/js/2.e449cf33.chunk.js": "/Man-Ki-Baat/static/js/2.e449cf33.chunk.js",
-    "static/js/2.e449cf33.chunk.js.map": "/Man-Ki-Baat/static/js/2.e449cf33.chunk.js.map",
+    "static/js/2.9c9d69c5.chunk.js": "/Man-Ki-Baat/static/js/2.9c9d69c5.chunk.js",
+    "static/js/2.9c9d69c5.chunk.js.map": "/Man-Ki-Baat/static/js/2.9c9d69c5.chunk.js.map",
     "index.html": "/Man-Ki-Baat/index.html",
-    "precache-manifest.86107ec9a239f253728dddd4b62b9f64.js": "/Man-Ki-Baat/precache-manifest.86107ec9a239f253728dddd4b62b9f64.js",
+    "precache-manifest.848efb1de7dc78bf8e9c8731f93247d4.js": "/Man-Ki-Baat/precache-manifest.848efb1de7dc78bf8e9c8731f93247d4.js",
     "service-worker.js": "/Man-Ki-Baat/service-worker.js",
-    "static/css/main.1882a7b5.chunk.css.map": "/Man-Ki-Baat/static/css/main.1882a7b5.chunk.css.map",
-    "static/js/2.e449cf33.chunk.js.LICENSE.txt": "/Man-Ki-Baat/static/js/2.e449cf33.chunk.js.LICENSE.txt",
+    "static/css/main.2812e673.chunk.css.map": "/Man-Ki-Baat/static/css/main.2812e673.chunk.css.map",
+    "static/js/2.9c9d69c5.chunk.js.LICENSE.txt": "/Man-Ki-Baat/static/js/2.9c9d69c5.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/Man-Ki-Baat/static/media/formoutline1.4197e972.png",
     "static/media/Facebook.png": "/Man-Ki-Baat/static/media/Facebook.4addc00a.png",
     "static/media/Google.png": "/Man-Ki-Baat/static/media/Google.e50b88a7.png",
@@ -20,12 +20,14 @@
     "static/media/fbwhite.png": "/Man-Ki-Baat/static/media/fbwhite.223a06a5.png",
     "static/media/googleplay.png": "/Man-Ki-Baat/static/media/googleplay.986c8fb7.png",
     "static/media/illustration.png": "/Man-Ki-Baat/static/media/illustration.ddb13ccd.png",
+    "static/media/illustration2.png": "/Man-Ki-Baat/static/media/illustration2.68e51e59.png",
+    "static/media/illustration3.png": "/Man-Ki-Baat/static/media/illustration3.ae492379.png",
     "static/media/welcome.png": "/Man-Ki-Baat/static/media/welcome.414e6e49.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a6a11e3e.js",
-    "static/js/2.e449cf33.chunk.js",
-    "static/css/main.1882a7b5.chunk.css",
-    "static/js/main.0628bfad.chunk.js"
+    "static/js/2.9c9d69c5.chunk.js",
+    "static/css/main.2812e673.chunk.css",
+    "static/js/main.44c26022.chunk.js"
   ]
 }
