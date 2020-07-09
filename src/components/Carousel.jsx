@@ -1,6 +1,8 @@
 import React from "react";
 import './styles.css';
 import carouselImg from './images/illustration.png';
+import carouselImg2 from './images/illustration2.png';
+import carouselImg3 from './images/illustration3.png';
 function Carousel()
 {
   return( 
@@ -26,14 +28,14 @@ function Carousel()
     <div className="carousel-item">
     <p className="container">Rushali Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
     </p>      
-    <img className="d-block w-50" src={carouselImg}
+    <img className="d-block w-50 img-fluid" src={carouselImg2}
         alt="Second slide"/>
     </div>
    
     <div className="carousel-item">
     <p className="container">Benedict Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
     </p>
-      <img className="d-block w-50" src={carouselImg}
+      <img className="d-block w-50" src={carouselImg3}
         alt="Third slide"/>
     </div>
    

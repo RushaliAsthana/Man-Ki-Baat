@@ -163,7 +163,7 @@
 
 /*   for website*/
 
-@media screen and (min-width: 1445px) {
+@media screen and (min-width: 1450px) {
     #formContainer,
     #formContainer1 {
         height: 210px;
@@ -221,14 +221,15 @@
         left: 20px;
     }
     #apps img {
-        margin-left: 20px;
+        margin-right: 10px;
+        
     }
 }
 
 
 /* For mobile screen*/
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 770px) {
     #loginheader,
     #signupheader {
         margin-top: 10%;
@@ -533,7 +534,7 @@
     #loginBtn {
         border-radius: 100px;
         font-weight: bold;
-        margin-left: 2 0px;
+        margin-left: 20px;
     }
     #loginBtn {
         width: max-content;
@@ -549,5 +550,153 @@
         top: 50px;
         left: 20%;
         border: 2px solid white;
+    }
+}
+@media screen and (min-width: 770px) and (max-width: 1024px)
+{
+    #carousel-example-1z img {
+        height: 200px;
+    }
+    #carousel-example-1z p {
+        margin-top: 0px;
+    }
+    #carousel-example-1z li {
+        margin-right: 20px;
+    }
+    #formContainer,
+    #formContainer1 {
+        
+        height: 250px;
+        max-width: auto;
+        background-size: 220px 250px;
+        background-repeat: no-repeat;
+    }
+    #NameIcon,#PasswordIcon  {
+        visibility: hidden;
+    }
+    #Password {
+        margin-top: 50px;
+    }
+    #Name {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #loginsubmit {
+        margin-top: 50px;
+        position: relative;
+        left: 20px;
+        border-radius: 100px;
+    }
+    #forgotpwd {
+        border: 2px solid black;
+        border-radius: 100px;
+        font-weight: bold;
+        position: relative;
+        width: max-content;
+        margin-top: 50px;
+    }
+    #apps img {
+        height: 50px;
+        width: 95px;
+        margin-right: 5px;
+    }
+    #signupbtn,
+    #loginBtn {
+        border-radius: 100px;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    #loginBtn {
+        width: 250px;
+        margin-left: -20px;
+    }
+    #confirmpwd {
+        margin-top: 35px;
+        width: 200px;
+    }
+    #submitBtn {
+        position: relative;
+        top: 50px;
+        left: 20%;
+        border: 2px solid white;
+    }
+    #social {
+        width: 300px;
+        margin-left: -35px;
+    }
+}
+@media screen and (min-width: 970px) and (max-width: 1024px)
+{
+    #carousel-example-1z img {
+        height: 200px;
+    }
+    #formContainer,
+    #formContainer1 {
+        
+        height: 250px;
+        max-width: auto;
+        background-size: 250px 250px;
+        background-repeat: no-repeat;
+    }
+    #NameIcon,#PasswordIcon  {
+        visibility: hidden;
+    }
+    #forgotpwd {
+      
+        margin-left: 15px;
+    }
+    
+}
+@media screen and (min-width: 1024px) and (max-width: 1460px)
+{
+    #carousel-example-1z img {
+        height: 250px;
+    }
+    #carousel-example-1z p {
+        margin-top: 0px;
+    }
+    #carousel-example-1z li {
+        position: relative;
+        top:0px;
+    }
+    #welcome{
+        margin-top: 0px;
+    }   
+    #loginheader,
+    #signupheader {
+        margin-top: 15%;
+        font-size: 40px;
+        position: relative;
+        right:40px
+    }
+    #NameIcon,#PasswordIcon{
+        visibility: hidden;
+    }
+   
+    #forgotpwd {
+        margin-top: 50px;
+    }
+    #apps img {
+        height: 50px;
+        width: 100px;
+        margin-right: 5px;
+    }
+    #signupbtn,
+    #loginBtn {
+        position: relative;
+        top:-20px;
+        right: 30px;
+    }
+    #social {
+        width: 300px;
+        margin-left: 10px;
+        position: relative;
+        top:-20px;
+    }
+    #apps img {
+        position: relative;
+        top:-60px;
+        right: 25px;
+        margin-right: 5px;
     }
 }
