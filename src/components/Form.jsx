@@ -1,4 +1,11 @@
 import React, { useState } from "react";
+import './styles.css';
+import Facebook from './images/Facebook.png';
+import FacebookWhite from './images/fbwhite.png';
+import Google from './images/Google.png';
+import Googlewhite from './images/Googlewhite.png';
+import Googleplay from './images/googleplay.png';
+import Appstore from './images/appstore.png';
 function Form(props)
 {
 
@@ -12,13 +19,13 @@ function Form(props)
    function Social(props)
    {
       if(props.name==="fbIcon" && signUpLogin)
-      return <img id="fb-icon" height="50px" src={process.env.PUBLIC_URL+"/images/Facebook.png"}/>
+      return <img id="fb-icon" height="50px" src={Facebook}/>
       else if(props.name==="fbIcon")
-      return <img id="fb-icon" height="50px" src={process.env.PUBLIC_URL+"/images/fbwhite.png"}/>
+      return <img id="fb-icon" height="50px" src={FacebookWhite}/>
       if(props.name==="googleIcon" && signUpLogin)
-      return <img id="gog-icon" height="50px" src={process.env.PUBLIC_URL+"/images/Google.png"}/>
+      return <img id="gog-icon" height="50px" src={Google}/>
       else if(props.name=="googleIcon")
-      return <img id="gog-icon" height="50px" src={process.env.PUBLIC_URL+"/images/Googlewhite.png"}/>
+      return <img id="gog-icon" height="50px" src={Googlewhite}/>
    }
 
    
@@ -67,8 +74,8 @@ function Form(props)
      <input className="btn btn-block" type="button" id={signUpLogin?"signupbtn":"loginBtn"} onClick={test} value={signUpLogin?"Sign Up":"Already a member? Log In "} />
      </div><br/><br/>
      <div className="container-fluid" id="apps">
-        <img  width="200px" id="playstore" className="img-fluid" src={process.env.PUBLIC_URL+"/images/googleplay.png"}/>
-        <img  width="200px" id="appstore" className="img-fluid" src={process.env.PUBLIC_URL+"/images/appstore.png"}/>
+        <img  width="200px" id="playstore" className="img-fluid" src={Googleplay}/>
+        <img  width="200px" id="appstore" className="img-fluid" src={Appstore}/>
      </div>
    </div>
 }
