@@ -1,0 +1,526 @@
+.carousel {
+    height: 73vh;
+}
+
+#welcome {
+    height: 100px;
+}
+
+#carousel-example-1z img {
+    height: 300px;
+    justify-content: center;
+    margin-left: 23%;
+}
+
+#carousel-example-1z p {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#carousel-example-1z li {
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    margin-right: 20px;
+}
+
+#loginheader,
+#signupheader {
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+.signupContainer {
+    height: 100vh;
+    width: 100wh;
+    background-image: url("./images/Bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#formContainer {
+    background-image: url("./images/formoutline.png");
+}
+
+#formContainer1 {
+    background-image: url("./images/formoutline1.png");
+}
+
+.loginContainer {
+    height: 100vh;
+    width: 100wh;
+    background-image: url("./images/Signupbackground.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#signupheader {
+    color: white;
+}
+
+#fb-icon {
+    margin-right: 20px;
+}
+
+#gog-icon {
+    margin-left: 15px;
+}
+
+#loginBtn:hover,
+#submitBtn:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+
+#forgotpwd:hover,
+#signupbtn:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+#loginsubmit:hover {
+    background-color: #D733FF;
+}
+
+.white,
+#formContainer1 ::placeholder,
+#formContainer1 input:focus {
+    color: gainsboro;
+}
+
+#formContainer input:focus,
+#formContainer input:focus {
+    text-align: center;
+}
+
+#signupbtn {
+    border: 2px solid black;
+    color: black;
+}
+
+#signupbtn,
+#loginBtn {
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+#submitBtn {
+    color: white;
+    border-radius: 100px;
+}
+
+#loginBtn {
+    border: 2px solid white;
+    color: white;
+}
+
+#loginsubmit:hover {
+    border: 1px solid #D733FF;
+    background-color: #D733FF;
+    transition: ease-in-out 0.5s;
+    color: whitesmoke;
+}
+
+#Name input,
+#Password input,
+#confirmpwd {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+
+/*   for website*/
+
+@media screen and (min-width: 1025px) {
+    #formContainer,
+    #formContainer1 {
+        height: 210px;
+        width: auto;
+        margin-left: 50px;
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
+    }
+    #formContainer .row,
+    #formContainer1 .row {
+        padding-top: 5%;
+        padding-bottom: 5px;
+    }
+    #formContainer input,
+    #formContainer1 input {
+        background-color: transparent;
+        border: none;
+        margin-left: 20px;
+        text-align: center;
+    }
+    #loginsubmit {
+        border-radius: 100px;
+        margin-left: 20px;
+    }
+    #forgotpwd {
+        border: 2px solid black;
+        border-radius: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #submitBtn {
+        border: 2px solid white;
+        border-radius: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        margin-right: 20px;
+        margin-top: 20px;
+        color: white;
+    }
+    #signupbtn,
+    #loginBtn {
+        border-radius: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #NameIcon {
+        position: relative;
+        left: 20px;
+    }
+    #apps img {
+        margin-left: 20px;
+    }
+}
+
+
+/* For mobile screen*/
+
+@media screen and (max-width: 760px) {
+    #loginheader,
+    #signupheader {
+        margin-top: 10%;
+        font-size: 40px;
+    }
+    .signupContainer {
+        height: 100vh;
+        width: 100wh;
+        background-image: url("./images/Loginmobile.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .loginContainer {
+        height: 100vh;
+        width: 100wh;
+        background-image: url("./images/SignUpmobile.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #formContainer,
+    #formContainer1 {
+        min-width: auto;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+    #Name {
+        position: relative;
+        top: 15px;
+        width: auto;
+        text-align: center;
+    }
+    #NameIcon {
+        float: right;
+        position: relative;
+        top: 20px;
+    }
+    #PasswordIcon {
+        position: relative;
+        top: 40px;
+    }
+    #forgotpwd {
+        border: 2px solid black;
+        border-radius: 100px;
+        font-weight: bold;
+        margin-right: 20px;
+        position: relative;
+        width: max-content;
+    }
+    #submitBtn {
+        border: 2px solid white;
+        color: white;
+        border-radius: 100px;
+        font-weight: bold;
+        margin-right: 20px;
+        position: relative;
+        width: max-content;
+    }
+    #signupbtn,
+    #loginBtn {
+        border-radius: 100px;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    #signupbtn {
+        border: 2px solid black;
+        color: black;
+    }
+    #loginBtn {
+        border: 2px solid white;
+        color: white;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width: 760px) {
+    #formContainer,
+    #formContainer1 {
+        max-height: 200px;
+    }
+    #Name {
+        left: 18%;
+    }
+     ::placeholder {
+        text-align: center;
+    }
+    #NameIcon {
+        left: 18%;
+    }
+    #Password {
+        margin-top: 45px;
+        width: auto;
+        text-align: center;
+        left: 6%;
+    }
+    #loginsubmit {
+        margin-top: 25px;
+        border-radius: 100px;
+    }
+    #forgotpwd {
+        top: 50px;
+        left: 25%;
+    }
+    #submitBtn {
+        top: 50px;
+        left: 40%;
+    }
+    #confirmpwd {
+        margin-top: 25px;
+    }
+    #playstore,
+    #appstore {
+        margin-left: 10px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #Name {
+        left: 25px;
+    }
+    #loginheader,
+    #signupheader {
+        font-size: 30px;
+    }
+    #formContainer,
+    #formContainer1 {
+        max-height: 180px;
+    }
+    #loginsubmit {
+        margin-top: 20px;
+        border-radius: 100px;
+    }
+    #forgotpwd {
+        top: 30px;
+        left: 20%;
+    }
+    #submitBtn {
+        top: 50px;
+        left: 35%;
+    }
+    #confirmpwd {
+        margin-top: 17px;
+    }
+    #playstore,
+    #appstore {
+        margin-left: 10px;
+        width: 100px;
+    }
+    #signupbtn,
+    #loginBtn {
+        border-radius: 100px;
+        font-weight: bold;
+        margin-right: 20px;
+        margin-top: -15px;
+    }
+}
+
+@media screen and (width: 1024px) {
+    #carousel-example-1z img {
+        height: 250px;
+        margin-top: 10%;
+    }
+    #carousel-example-1z p {
+        margin-top: 20%;
+    }
+    #carousel-example-1z li {
+        margin-right: 20px;
+        position: relative;
+        bottom: 200px;
+    }
+    #welcome {
+        margin-top: 20%;
+    }
+    #loginheader,
+    #signupheader {
+        margin-top: 50%;
+        font-size: 50px;
+    }
+    #formContainer,
+    #formContainer1 {
+        height: 300px;
+        width: auto;
+        background-size: 310px 300px;
+        background-repeat: no-repeat;
+    }
+    #Name {
+        position: relative;
+        top: 30px;
+        left: 30px;
+        width: auto;
+        text-align: center;
+    }
+    #NameIcon {
+        float: right;
+        position: relative;
+        top: 40px;
+        left: 20px
+    }
+    #PasswordIcon {
+        position: relative;
+        top: 100px;
+    }
+    #forgotpwd {
+        border: 2px solid black;
+        border-radius: 100px;
+        font-weight: bold;
+        margin-left: 40px;
+        position: relative;
+        width: max-content;
+        margin-top: 70px;
+    }
+    #submitBtn {
+        border: 2px solid white;
+        color: white;
+        border-radius: 100px;
+        font-weight: bold;
+        margin-top: 70px;
+        position: relative;
+        width: max-content;
+    }
+    #signupbtn,
+    #loginBtn {
+        margin-right: 20px;
+    }
+    #Password {
+        margin-top: 100px;
+        width: auto;
+        text-align: center;
+        left: 6%;
+    }
+    #loginsubmit {
+        margin-top: 50px;
+        position: relative;
+        left: 40px;
+        border-radius: 100px;
+    }
+    #submitBtn {
+        left: 35%;
+    }
+    #confirmpwd {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    #apps img {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (width: 768px) {
+    #loginheader,
+    #signupheader {
+        margin-top: 50%;
+        font-size: 50px;
+    }
+    #carousel-example-1z img {
+        height: 200px;
+        margin-top: 10%;
+    }
+    #formContainer,
+    #formContainer1 {
+        height: 250px;
+        width: auto;
+        background-size: 225px 250px;
+        background-repeat: no-repeat;
+    }
+    #social {
+        width: 300px;
+        margin-left: -35px;
+    }
+    #Password {
+        margin-top: 50px;
+    }
+    #Name {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #NameIcon {
+        margin-top: 25px;
+    }
+    #PasswordIcon {
+        position: relative;
+        top: 50px
+    }
+    #loginsubmit {
+        margin-top: 50px;
+        position: relative;
+        left: 20px;
+        border-radius: 100px;
+    }
+    #forgotpwd {
+        border: 2px solid black;
+        border-radius: 100px;
+        font-weight: bold;
+        position: relative;
+        width: max-content;
+        margin-top: 50px;
+    }
+    #apps img {
+        margin-top: 20px;
+    }
+    #signupbtn,
+    #loginBtn {
+        border-radius: 100px;
+        font-weight: bold;
+        margin-left: 2 0px;
+    }
+    #loginBtn {
+        width: max-content;
+        position: relative;
+        right: 20px;
+    }
+    #confirmpwd {
+        margin-top: 35px;
+        width: 200px;
+    }
+    #submitBtn {
+        position: relative;
+        top: 50px;
+        left: 20%;
+        border: 2px solid white;
+    }
+}
