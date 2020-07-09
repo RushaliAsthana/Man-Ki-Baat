@@ -8,14 +8,59 @@ import Googleplay from './images/googleplay.png';
 import Appstore from './images/appstore.png';
 function Form(props)
 {
-
+   
    const [signUpLogin,toggleState]=useState(true);
+   const [seen,pwdToggle]=useState(true);
+   const [checkPwds,check]=useState(true);
+   const [pswd,setPwd]=useState({
+      uname:"",
+      pwd:"",
+      confirmpwd:"",
+   });
+   function notpCheck()
+   {
+      check(true)
+   } 
+  function passwordCheck()
+  {
+     
+     if(pswd.pwd!==pswd.confirmpwd)
+     check(false)
+     else 
+     {
+     check(true)
+     }
+
+  }
+  
+   function handleChange(event)
+   {
+      const {name,value}=event.target;
+      setPwd(prevValue=>{
+         return {
+            ...prevValue,
+            [name]:value
+         }
+      });
+      
+     
+   }
+
+   function togPwd()
+   {
+      pwdToggle(seen=>!seen)
+   } 
+  
    function test()
    {
+       pswd.uname="";
+       pswd.pwd="";
+       pswd.confirmpwd="";
+       check(true);
       toggleState(signUpLogin=>!signUpLogin)
       props.fun()
    }
-
+ 
    function Social(props)
    {
       if(props.name==="fbIcon" && signUpLogin)
@@ -29,36 +74,39 @@ function Form(props)
    }
 
    
-   return <div className="text-center">
+   return <div className="text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
       {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader">Sign Up</h1>}<br/>
-   
-     <h1>{signUpLogin}</h1>
+    
+      {checkPwds==false && <p className="badge badge-danger">Passwords are not same!</p>}
+
       <div className="container" id={signUpLogin?"formContainer":"formContainer1"}>
       
-         <form>
+         <form id="newsletter">
          <div className="row">
             <div className="col-sm-9  " id="Name">
-            <input className="form-control " type="text"  required placeholder="email or name"></input>
+            <input className="form-control " value={pswd.uname} type="text" name="uname" onChange={handleChange} required placeholder="email or name"></input>
             </div>
             <div  id="NameIcon">
             <i className={signUpLogin?"fa fa-envelope-o fa-lg":"fa fa-envelope-o fa-lg white"}></i>
             </div> 
          </div>
          <div className="row">
-         <div id="PasswordIcon" className="mt-1 ml-4"><i className={signUpLogin?"fa fa-lock fa-2x":"fa fa-lock fa-2x white"} ></i></div>
+         <div id="PasswordIcon" className="mt-1 ml-4"><i data-toggle="tooltip" title="See Password" onClick={togPwd} className={seen?signUpLogin?"fa fa-lock fa-2x":"fa fa-lock fa-2x white":signUpLogin?"fa fa-unlock fa-2x":"fa fa-unlock fa-2x white"} ></i></div>
             <div id="Password" className="col-sm-7">
-            <input className="form-control " type="password" required placeholder="password"></input>
+            <input  className="form-control " value={pswd.pwd} name="pwd" onChange={ handleChange} type={seen?"password":"text"} required placeholder="password"></input>
             </div>
          </div>
            <div className="row">  
-           <div className="col-sm-9" id="subbox">{signUpLogin?<button id="loginsubmit" type="submit" className="btn  btn-block">Submit</button>:<input id="confirmpwd" className="form-control " type="password" required placeholder="confirm password"></input>}</div>
+           <div className="col-sm-9" id="subbox">{signUpLogin?<button id="loginsubmit" type="submit" className="btn  btn-block">Submit</button>:<input id="confirmpwd" value={pswd.confirmpwd} name="confirmpwd" className="form-control " type="password" onFocus={notpCheck} onChange={handleChange} onBlur={passwordCheck} required placeholder="confirm password"></input>}</div>
            
             </div>
          
    
         <div className="row">
         <div className="col-sm-8 offset-sm-1">
-       <button className="btn btn-block" id={signUpLogin?"forgotpwd":"submitBtn"}  type={signUpLogin?"button":"submit"} >{signUpLogin?"Forgot Password":"Submit"}</button>
+        
+       <button className="btn btn-block" id={signUpLogin?"forgotpwd":"submitBtn"} disabled={!checkPwds} type={signUpLogin?"button":"submit"} >{signUpLogin?"Forgot Password":"Submit"}</button>
+       
        </div>
      </div>
      </form>
@@ -66,13 +114,14 @@ function Form(props)
      <br/><br/><br/><br/>
 
      <div className="container" id="social">
+     
      <span><Social name="fbIcon"></Social></span>
         <span className={!signUpLogin&&"white"}><b>Connect With</b> </span>
         <span><Social name="googleIcon"></Social></span>
      </div><br/>
      <div className="container">
-     <input className="btn btn-block" type="button" id={signUpLogin?"signupbtn":"loginBtn"} onClick={test} value={signUpLogin?"Sign Up":"Already a member? Log In "} />
-     </div><br/><br/>
+     <input className="btn btn-block"  type="button" id={signUpLogin?"signupbtn":"loginBtn"} onClick={test} value={signUpLogin?"Sign Up":"Already a member? Log In "} />
+     </div><br/>
      <div className="container-fluid" id="apps">
         <img  width="200px" id="playstore" className="img-fluid" src={Googleplay}/>
         <img  width="200px" id="appstore" className="img-fluid" src={Appstore}/>

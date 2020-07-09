@@ -1,3 +1,30 @@
+#SIGNUP-PAGE{
+    animation: fadeInAnimation1 ease 3s ;
+    animation-fill-mode: forwards; 
+    
+}
+#LOGIN-PAGE{ 
+    animation: fadeInAnimation ease 3s ;
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}
+@keyframes fadeInAnimation1 { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
 .carousel {
     height: 73vh;
 }
@@ -88,7 +115,7 @@
 
 .white,
 #formContainer1 ::placeholder,
-#formContainer1 input:focus {
+#formContainer1 input:focus,#formContainer1 input {
     color: gainsboro;
 }
 
@@ -136,7 +163,7 @@
 
 /*   for website*/
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1445px) {
     #formContainer,
     #formContainer1 {
         height: 210px;
@@ -359,7 +386,7 @@
     }
 }
 
-@media screen and (width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1445px)  {
     #carousel-example-1z img {
         height: 250px;
         margin-top: 10%;
