@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Man-Ki-Baat/static/css/main.2812e673.chunk.css",
-    "main.js": "/Man-Ki-Baat/static/js/main.44c26022.chunk.js",
-    "main.js.map": "/Man-Ki-Baat/static/js/main.44c26022.chunk.js.map",
+    "main.css": "/Man-Ki-Baat/static/css/main.c2bce80f.chunk.css",
+    "main.js": "/Man-Ki-Baat/static/js/main.dfa24363.chunk.js",
+    "main.js.map": "/Man-Ki-Baat/static/js/main.dfa24363.chunk.js.map",
     "runtime-main.js": "/Man-Ki-Baat/static/js/runtime-main.a6a11e3e.js",
     "runtime-main.js.map": "/Man-Ki-Baat/static/js/runtime-main.a6a11e3e.js.map",
     "static/js/2.9c9d69c5.chunk.js": "/Man-Ki-Baat/static/js/2.9c9d69c5.chunk.js",
     "static/js/2.9c9d69c5.chunk.js.map": "/Man-Ki-Baat/static/js/2.9c9d69c5.chunk.js.map",
     "index.html": "/Man-Ki-Baat/index.html",
-    "precache-manifest.848efb1de7dc78bf8e9c8731f93247d4.js": "/Man-Ki-Baat/precache-manifest.848efb1de7dc78bf8e9c8731f93247d4.js",
+    "precache-manifest.ac5412b494912a1305cc2bdfe53b8bc3.js": "/Man-Ki-Baat/precache-manifest.ac5412b494912a1305cc2bdfe53b8bc3.js",
     "service-worker.js": "/Man-Ki-Baat/service-worker.js",
-    "static/css/main.2812e673.chunk.css.map": "/Man-Ki-Baat/static/css/main.2812e673.chunk.css.map",
+    "static/css/main.c2bce80f.chunk.css.map": "/Man-Ki-Baat/static/css/main.c2bce80f.chunk.css.map",
     "static/js/2.9c9d69c5.chunk.js.LICENSE.txt": "/Man-Ki-Baat/static/js/2.9c9d69c5.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/Man-Ki-Baat/static/media/formoutline1.4197e972.png",
     "static/media/Facebook.png": "/Man-Ki-Baat/static/media/Facebook.4addc00a.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.a6a11e3e.js",
     "static/js/2.9c9d69c5.chunk.js",
-    "static/css/main.2812e673.chunk.css",
-    "static/js/main.44c26022.chunk.js"
+    "static/css/main.c2bce80f.chunk.css",
+    "static/js/main.dfa24363.chunk.js"
   ]
 }
