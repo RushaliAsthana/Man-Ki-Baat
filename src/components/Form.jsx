@@ -74,10 +74,10 @@ function Form(props)
    }
 
    
-   return <div className="text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
-      {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader">Sign Up</h1>}<br/>
+   return <div className=" text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
+      {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader">Sign Up</h1>}
     
-      {checkPwds==false && <p className="badge badge-danger">Passwords are not same!</p>}
+      {checkPwds==false && <span className="badge badge-danger">Passwords are not same!</span>}
 
       <div className="container" id={signUpLogin?"formContainer":"formContainer1"}>
       
@@ -123,8 +123,8 @@ function Form(props)
      <input className="btn btn-block"  type="button" id={signUpLogin?"signupbtn":"loginBtn"} onClick={test} value={signUpLogin?"Sign Up":"Already a member? Log In "} />
      </div><br/>
      <div className="container-fluid" id="apps">
-        <img  width="200px" id="playstore" className="img-fluid" src={Googleplay}/>
-        <img  width="200px" id="appstore" className="img-fluid" src={Appstore}/>
+        <img   id="playstore" className="img-fluid" src={Googleplay}/>
+        <img   id="appstore" className="img-fluid" src={Appstore}/>
      </div>
    </div>
 }
