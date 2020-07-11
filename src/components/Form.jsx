@@ -124,10 +124,6 @@ function Form(props)
      <div className="container-fluid row" id="apps">
      <img   id="playstore" className="img-responsive" src={Googleplay}/>
      <img   heigth="100px" id="appstore" className="img-responsive" src={Appstore}/>
-     {/* <div className="col-sm-3 col-md-6">
-        <img   id="playstore" className="img-fluid" src={Googleplay}/></div>
-       <div className="col-sm-3 col-md-6"> <img   id="appstore" className="img-fluid" src={Appstore}/></div>
-     </div> */}
      </div>
          </div>
 }
