@@ -122,9 +122,12 @@ function Form(props)
            <input id={signUpLogin?"signupbtn":"loginbtn"} className={signUpLogin?"btn btn-block border-black":"btn btn-block border-white"}  type="button"  onClick={test} value={signUpLogin?"Sign Up":"Already a member? Log In "} /> 
           </div><br/>
      <div className="container-fluid row" id="apps">
-     <div className="col-sm-3 col-md-6">
+     <img   id="playstore" className="img-responsive" src={Googleplay}/>
+     <img   heigth="100px" id="appstore" className="img-responsive" src={Appstore}/>
+     {/* <div className="col-sm-3 col-md-6">
         <img   id="playstore" className="img-fluid" src={Googleplay}/></div>
        <div className="col-sm-3 col-md-6"> <img   id="appstore" className="img-fluid" src={Appstore}/></div>
+     </div> */}
      </div>
          </div>
 }
