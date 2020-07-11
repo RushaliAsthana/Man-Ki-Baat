@@ -189,13 +189,14 @@
   color: black;
   transition: ease-in-out 0.5s;
  }
+ 
  @media screen and (max-width: 500px) {
      #tophead img{
          height: 60px;
      }
   .signupContainer {
-   height: 100%;
-   width: 100%;
+   height: 100vh;
+   width: 100wh;
    background-image: url("./images/Loginmobile.png");
    background-size: 100% 100%;
    background-repeat: no-repeat;
@@ -232,7 +233,7 @@ z-index: 1000;
 }
 
 #formcontainer{
- margin-top: -50px;
+ margin-top: -40px;
 }
 
  }
