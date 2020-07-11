@@ -5,6 +5,8 @@ import Google from './images/Google.png';
 import Googlewhite from './images/Googlewhite.png';
 import Googleplay from './images/googleplay.png';
 import Appstore from './images/appstore.png';
+import Logo from "./images/logo.png";
+import Logo1 from "./images/logo1.png";
 import './styles.css';
 function Form(props)
 {
@@ -73,8 +75,13 @@ function Form(props)
    }
 
          return <div className="container text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
-           {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader" className="white">Sign Up</h1>}<br/>
-           
+         <div className="row " id="tophead">
+         {/* <div class="col-sm-12 "> */}
+           {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader" className="white">Sign Up</h1>}
+              <img src={signUpLogin?Logo:Logo1} className="imp-responsive" height="90px"/>
+              {/* </div> */}
+           <br/>
+           </div>
            <i data-toggle="tooltip" id="pwdicon" title="See Password" onClick={togPwd} className={seen?signUpLogin?"fa fa-lock fa-2x":"fa fa-lock fa-2x white":signUpLogin?"fa fa-unlock fa-2x":"fa fa-unlock fa-2x white"} ></i>
            <form id="formcontainer">
             <div className="row">
@@ -91,10 +98,10 @@ function Form(props)
             </div>
             <div className="row">
             <div class="col-sm-10 offset-1" id={signUpLogin?"inp3":"inp3white"}>
-            {signUpLogin?<input id="loginsubmit" type="submit" className="btn  btn-block" name="Submit"></input>:<input id="confirmpwd" value={pswd.confirmpwd} name="confirmpwd" className="form-control " type="password" onFocus={notpCheck} onChange={handleChange} onBlur={passwordCheck} required placeholder="confirm password"></input>}
+            {signUpLogin?<input id="loginsubmit" type="submit" className="btn btn-block" name="Submit"></input>:<input id="confirmpwd" value={pswd.confirmpwd} name="confirmpwd" className="form-control " type="password" onFocus={notpCheck} onChange={handleChange} onBlur={passwordCheck} required placeholder="confirm password"></input>}
              </div>
             </div>
-           </form>
+           
            
            {!checkPwds? <span id="pwdnotsame" className="badge badge-danger">Passwords are not same!</span>:null}<br></br>
            <div className="row">
@@ -105,6 +112,7 @@ function Form(props)
         
         </div>
            </div> 
+           </form>
            <div class="container" id="social">
            <span><Social name="fbIcon"></Social></span>
         <span className={!signUpLogin&&"white"} id="conn"><b>Connect With</b> </span>

@@ -18,7 +18,7 @@ function SignUpLoginPage() {
         {/* <Form togval = { true }fun = { changingBg } > </Form>  */}
         <Form togval = { true } fun = { changingBg }></Form>
         </div> 
-        <div className = "col-sm-1" > </div> 
+        <div className = "col-sm-1" >  </div> 
         <div className = "col-sm-6 d-none d-lg-block d-md-block" >
         <div className = "container text-center mt-5 mb-5" >
         <img className = "img-fluid " id = "welcome" src = {welcomeImg}></img> </div>  
