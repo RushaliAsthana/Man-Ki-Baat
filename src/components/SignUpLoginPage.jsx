@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Form from "./Form";
 import Carousel from "./Carousel";
 import welcomeImg from './images/welcome.png';
+import Form from "./Form";
 import './styles.css';
 
 function SignUpLoginPage() {
@@ -15,7 +15,8 @@ function SignUpLoginPage() {
         <div className = "row">
         <div className = "col-sm-1" > </div>
         <div className = "col-sm-4" >
-        <Form togval = { true }fun = { changingBg } > </Form> 
+        {/* <Form togval = { true }fun = { changingBg } > </Form>  */}
+        <Form togval = { true } fun = { changingBg }></Form>
         </div> 
         <div className = "col-sm-1" > </div> 
         <div className = "col-sm-6 d-none d-lg-block d-md-block" >

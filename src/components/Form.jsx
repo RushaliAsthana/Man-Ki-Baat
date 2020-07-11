@@ -1,15 +1,14 @@
-import React, { useState } from "react";
-import './styles.css';
+import React,{useState} from "react";
 import Facebook from './images/Facebook.png';
 import FacebookWhite from './images/fbwhite.png';
 import Google from './images/Google.png';
 import Googlewhite from './images/Googlewhite.png';
 import Googleplay from './images/googleplay.png';
 import Appstore from './images/appstore.png';
+import './styles.css';
 function Form(props)
 {
-   
-   const [signUpLogin,toggleState]=useState(true);
+  const [signUpLogin,toggleState]=useState(true);
    const [seen,pwdToggle]=useState(true);
    const [checkPwds,check]=useState(true);
    const [pswd,setPwd]=useState({
@@ -73,59 +72,52 @@ function Form(props)
       return <img id="gog-icon" height="50px" src={Googlewhite}/>
    }
 
-   
-   return <div className=" text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
-      {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader">Sign Up</h1>}
-    
-      {checkPwds==false && <span className="badge badge-danger">Passwords are not same!</span>}
-
-      <div className="container" id={signUpLogin?"formContainer":"formContainer1"}>
-      
-         <form id="newsletter">
-         <div className="row">
-            <div className="col-sm-9  " id="Name">
-            <input className="form-control " value={pswd.uname} type="text" name="uname" onChange={handleChange} required placeholder="email or name"></input>
-            </div>
-            <div  id="NameIcon">
-            <i className={signUpLogin?"fa fa-envelope-o fa-lg":"fa fa-envelope-o fa-lg white"}></i>
-            </div> 
-         </div>
-         <div className="row">
-         <div id="PasswordIcon" className="mt-1 ml-4"><i data-toggle="tooltip" title="See Password" onClick={togPwd} className={seen?signUpLogin?"fa fa-lock fa-2x":"fa fa-lock fa-2x white":signUpLogin?"fa fa-unlock fa-2x":"fa fa-unlock fa-2x white"} ></i></div>
-            <div id="Password" className="col-sm-7">
-            <input  className="form-control " value={pswd.pwd} name="pwd" onChange={ handleChange} type={seen?"password":"text"} required placeholder="password"></input>
-            </div>
-         </div>
-           <div className="row">  
-           <div className="col-sm-9" id="subbox">{signUpLogin?<button id="loginsubmit" type="submit" className="btn  btn-block">Submit</button>:<input id="confirmpwd" value={pswd.confirmpwd} name="confirmpwd" className="form-control " type="password" onFocus={notpCheck} onChange={handleChange} onBlur={passwordCheck} required placeholder="confirm password"></input>}</div>
+         return <div className="container text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
+           {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader" className="white">Sign Up</h1>}<br/>
            
+           <i data-toggle="tooltip" id="pwdicon" title="See Password" onClick={togPwd} className={seen?signUpLogin?"fa fa-lock fa-2x":"fa fa-lock fa-2x white":signUpLogin?"fa fa-unlock fa-2x":"fa fa-unlock fa-2x white"} ></i>
+           <form id="formcontainer">
+            <div className="row">
+            <div class="col-sm-10 offset-1" id={signUpLogin?"inp1":"inp1white"}>
+            <i id="unameicon" className={signUpLogin?"fa fa-envelope-o fa-lg":"fa fa-envelope-o fa-lg white"}></i>
+             <input className="form-control" id="nameemail" value={pswd.uname} type="text" name="uname" onChange={handleChange} required placeholder="email or name"></input>
+             </div>
             </div>
-         
-   
-        <div className="row">
-        <div className="col-sm-8 offset-sm-1">
+            <div className="row">
+            <div class="col-sm-10 offset-1" id={signUpLogin?"inp2":"inp2white"} >
+            
+             <input className="form-control" value={pswd.pwd} name="pwd" onChange={ handleChange} type={seen?"password":"text"} required placeholder="password"></input>
+             </div>
+            </div>
+            <div className="row">
+            <div class="col-sm-10 offset-1" id={signUpLogin?"inp3":"inp3white"}>
+            {signUpLogin?<input id="loginsubmit" type="submit" className="btn  btn-block" name="Submit"></input>:<input id="confirmpwd" value={pswd.confirmpwd} name="confirmpwd" className="form-control " type="password" onFocus={notpCheck} onChange={handleChange} onBlur={passwordCheck} required placeholder="confirm password"></input>}
+             </div>
+            </div>
+           </form>
+           
+           {!checkPwds? <span id="pwdnotsame" className="badge badge-danger">Passwords are not same!</span>:null}<br></br>
+           <div className="row">
+           <div className="col-sm-6 offset-sm-3">
+           
+           {/* <button className="btn btn-block" id={signUpLogin?"forgotpwd":"submitBtn"} disabled={!checkPwds} type={signUpLogin?"button":"submit"} >{signUpLogin?"Forgot Password":"Submit"}</button> */}
+           <button  className={signUpLogin?"btn btn-block border-black":"btn btn-block white border-white"} disabled={!checkPwds} type={signUpLogin?"button":"submit"} >{signUpLogin?"Forgot Password":"Submit"}</button> <br/>
         
-       <button className="btn btn-block" id={signUpLogin?"forgotpwd":"submitBtn"} disabled={!checkPwds} type={signUpLogin?"button":"submit"} >{signUpLogin?"Forgot Password":"Submit"}</button>
-       
-       </div>
-     </div>
-     </form>
-      </div>
-     <br/><br/><br/><br/>
-
-     <div className="container" id="social">
-     
-     <span><Social name="fbIcon"></Social></span>
-        <span className={!signUpLogin&&"white"}><b>Connect With</b> </span>
+        </div>
+           </div> 
+           <div class="container" id="social">
+           <span><Social name="fbIcon"></Social></span>
+        <span className={!signUpLogin&&"white"} id="conn"><b>Connect With</b> </span>
         <span><Social name="googleIcon"></Social></span>
-     </div><br/>
-     <div className="container">
-     <input className="btn btn-block"  type="button" id={signUpLogin?"signupbtn":"loginBtn"} onClick={test} value={signUpLogin?"Sign Up":"Already a member? Log In "} />
-     </div><br/>
-     <div className="container-fluid" id="apps">
-        <img   id="playstore" className="img-fluid" src={Googleplay}/>
-        <img   id="appstore" className="img-fluid" src={Appstore}/>
+           </div><br/>
+           <div className="container">
+           <input id={signUpLogin?"signupbtn":"loginbtn"} className={signUpLogin?"btn btn-block border-black":"btn btn-block border-white"}  type="button"  onClick={test} value={signUpLogin?"Sign Up":"Already a member? Log In "} /> 
+          </div><br/>
+     <div className="container-fluid row" id="apps">
+     <div className="col-sm-3 col-md-6">
+        <img   id="playstore" className="img-fluid" src={Googleplay}/></div>
+       <div className="col-sm-3 col-md-6"> <img   id="appstore" className="img-fluid" src={Appstore}/></div>
      </div>
-   </div>
+         </div>
 }
 export default Form;
