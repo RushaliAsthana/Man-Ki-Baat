@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Man-Ki-Baat/static/css/main.fc3f1e50.chunk.css",
+    "main.css": "/Man-Ki-Baat/static/css/main.7afa84b9.chunk.css",
     "main.js": "/Man-Ki-Baat/static/js/main.65e9d2ef.chunk.js",
     "main.js.map": "/Man-Ki-Baat/static/js/main.65e9d2ef.chunk.js.map",
     "runtime-main.js": "/Man-Ki-Baat/static/js/runtime-main.a6a11e3e.js",
@@ -8,9 +8,9 @@
     "static/js/2.d2bd7e99.chunk.js": "/Man-Ki-Baat/static/js/2.d2bd7e99.chunk.js",
     "static/js/2.d2bd7e99.chunk.js.map": "/Man-Ki-Baat/static/js/2.d2bd7e99.chunk.js.map",
     "index.html": "/Man-Ki-Baat/index.html",
-    "precache-manifest.6ed0966715c0443bfdf13b7e61f87cff.js": "/Man-Ki-Baat/precache-manifest.6ed0966715c0443bfdf13b7e61f87cff.js",
+    "precache-manifest.252c6b6e6d06065652fddb2ae24df73a.js": "/Man-Ki-Baat/precache-manifest.252c6b6e6d06065652fddb2ae24df73a.js",
     "service-worker.js": "/Man-Ki-Baat/service-worker.js",
-    "static/css/main.fc3f1e50.chunk.css.map": "/Man-Ki-Baat/static/css/main.fc3f1e50.chunk.css.map",
+    "static/css/main.7afa84b9.chunk.css.map": "/Man-Ki-Baat/static/css/main.7afa84b9.chunk.css.map",
     "static/js/2.d2bd7e99.chunk.js.LICENSE.txt": "/Man-Ki-Baat/static/js/2.d2bd7e99.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/Man-Ki-Baat/static/media/Signupbackground.75c51b3e.png",
     "static/media/Facebook.png": "/Man-Ki-Baat/static/media/Facebook.4addc00a.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.a6a11e3e.js",
     "static/js/2.d2bd7e99.chunk.js",
-    "static/css/main.fc3f1e50.chunk.css",
+    "static/css/main.7afa84b9.chunk.css",
     "static/js/main.65e9d2ef.chunk.js"
   ]
 }
