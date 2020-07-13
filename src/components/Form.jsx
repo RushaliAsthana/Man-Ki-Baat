@@ -125,6 +125,7 @@ function Form(props)
      <img   id="playstore" className="img-responsive" src={Googleplay}/>
      <img   heigth="100px" id="appstore" className="img-responsive" src={Appstore}/>
      </div>
+     <h1>hello</h1>
          </div>
 }
 export default Form;
