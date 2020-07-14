@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Man-Ki-Baat/static/css/main.f212cda3.chunk.css",
-    "main.js": "/Man-Ki-Baat/static/js/main.5dc751a7.chunk.js",
-    "main.js.map": "/Man-Ki-Baat/static/js/main.5dc751a7.chunk.js.map",
+    "main.js": "/Man-Ki-Baat/static/js/main.10460fe1.chunk.js",
+    "main.js.map": "/Man-Ki-Baat/static/js/main.10460fe1.chunk.js.map",
     "runtime-main.js": "/Man-Ki-Baat/static/js/runtime-main.a6a11e3e.js",
     "runtime-main.js.map": "/Man-Ki-Baat/static/js/runtime-main.a6a11e3e.js.map",
     "static/js/2.b7598c6b.chunk.js": "/Man-Ki-Baat/static/js/2.b7598c6b.chunk.js",
     "static/js/2.b7598c6b.chunk.js.map": "/Man-Ki-Baat/static/js/2.b7598c6b.chunk.js.map",
     "index.html": "/Man-Ki-Baat/index.html",
-    "precache-manifest.fb5bb8a2eb58b84b29d04f7b2a549775.js": "/Man-Ki-Baat/precache-manifest.fb5bb8a2eb58b84b29d04f7b2a549775.js",
+    "precache-manifest.d1c19dba60b47beac7514db43763df32.js": "/Man-Ki-Baat/precache-manifest.d1c19dba60b47beac7514db43763df32.js",
     "service-worker.js": "/Man-Ki-Baat/service-worker.js",
     "static/css/main.f212cda3.chunk.css.map": "/Man-Ki-Baat/static/css/main.f212cda3.chunk.css.map",
     "static/js/2.b7598c6b.chunk.js.LICENSE.txt": "/Man-Ki-Baat/static/js/2.b7598c6b.chunk.js.LICENSE.txt",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.a6a11e3e.js",
     "static/js/2.b7598c6b.chunk.js",
     "static/css/main.f212cda3.chunk.css",
-    "static/js/main.5dc751a7.chunk.js"
+    "static/js/main.10460fe1.chunk.js"
   ]
 }
