@@ -74,7 +74,7 @@ function Form(props)
       return <img id="gog-icon" height="50px" src={Googlewhite}/>
    }
 
-         return <div className="container text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
+         return <div className="container-fluid text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
          <div className="row " id="tophead">
          {/* <div class="col-sm-12 "> */}
            {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader" className="white">Sign Up</h1>}
