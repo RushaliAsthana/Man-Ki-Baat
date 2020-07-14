@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2370e5015b7fdf3bdb10a316983f9f7d",
+    "revision": "13cdafbae34502e1e774f2a4d0cea449",
     "url": "/Man-Ki-Baat/index.html"
   },
   {
-    "revision": "cccd9cde147edce9ec8c",
-    "url": "/Man-Ki-Baat/static/css/main.9bc72c5d.chunk.css"
+    "revision": "4e94ea8e6c21f4352589",
+    "url": "/Man-Ki-Baat/static/css/main.f212cda3.chunk.css"
   },
   {
-    "revision": "266fa52ca0e9a88becfc",
-    "url": "/Man-Ki-Baat/static/js/2.d2bd7e99.chunk.js"
+    "revision": "62b1abf669fb73bde598",
+    "url": "/Man-Ki-Baat/static/js/2.b7598c6b.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Man-Ki-Baat/static/js/2.d2bd7e99.chunk.js.LICENSE.txt"
+    "url": "/Man-Ki-Baat/static/js/2.b7598c6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cccd9cde147edce9ec8c",
-    "url": "/Man-Ki-Baat/static/js/main.65e9d2ef.chunk.js"
+    "revision": "4e94ea8e6c21f4352589",
+    "url": "/Man-Ki-Baat/static/js/main.5dc751a7.chunk.js"
   },
   {
     "revision": "7082febb196c69944c97",

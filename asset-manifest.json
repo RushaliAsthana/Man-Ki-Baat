@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/Man-Ki-Baat/static/css/main.9bc72c5d.chunk.css",
-    "main.js": "/Man-Ki-Baat/static/js/main.65e9d2ef.chunk.js",
-    "main.js.map": "/Man-Ki-Baat/static/js/main.65e9d2ef.chunk.js.map",
+    "main.css": "/Man-Ki-Baat/static/css/main.f212cda3.chunk.css",
+    "main.js": "/Man-Ki-Baat/static/js/main.5dc751a7.chunk.js",
+    "main.js.map": "/Man-Ki-Baat/static/js/main.5dc751a7.chunk.js.map",
     "runtime-main.js": "/Man-Ki-Baat/static/js/runtime-main.a6a11e3e.js",
     "runtime-main.js.map": "/Man-Ki-Baat/static/js/runtime-main.a6a11e3e.js.map",
-    "static/js/2.d2bd7e99.chunk.js": "/Man-Ki-Baat/static/js/2.d2bd7e99.chunk.js",
-    "static/js/2.d2bd7e99.chunk.js.map": "/Man-Ki-Baat/static/js/2.d2bd7e99.chunk.js.map",
+    "static/js/2.b7598c6b.chunk.js": "/Man-Ki-Baat/static/js/2.b7598c6b.chunk.js",
+    "static/js/2.b7598c6b.chunk.js.map": "/Man-Ki-Baat/static/js/2.b7598c6b.chunk.js.map",
     "index.html": "/Man-Ki-Baat/index.html",
-    "precache-manifest.4ad6500073a7cd69e282a23c4482f7f4.js": "/Man-Ki-Baat/precache-manifest.4ad6500073a7cd69e282a23c4482f7f4.js",
+    "precache-manifest.fb5bb8a2eb58b84b29d04f7b2a549775.js": "/Man-Ki-Baat/precache-manifest.fb5bb8a2eb58b84b29d04f7b2a549775.js",
     "service-worker.js": "/Man-Ki-Baat/service-worker.js",
-    "static/css/main.9bc72c5d.chunk.css.map": "/Man-Ki-Baat/static/css/main.9bc72c5d.chunk.css.map",
-    "static/js/2.d2bd7e99.chunk.js.LICENSE.txt": "/Man-Ki-Baat/static/js/2.d2bd7e99.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/Man-Ki-Baat/static/media/Signupbackground.75c51b3e.png",
+    "static/css/main.f212cda3.chunk.css.map": "/Man-Ki-Baat/static/css/main.f212cda3.chunk.css.map",
+    "static/js/2.b7598c6b.chunk.js.LICENSE.txt": "/Man-Ki-Baat/static/js/2.b7598c6b.chunk.js.LICENSE.txt",
+    "static/media/Bg.png": "/Man-Ki-Baat/static/media/Bg.f222224d.png",
     "static/media/Facebook.png": "/Man-Ki-Baat/static/media/Facebook.4addc00a.png",
     "static/media/Google.png": "/Man-Ki-Baat/static/media/Google.e50b88a7.png",
     "static/media/Googlewhite.png": "/Man-Ki-Baat/static/media/Googlewhite.948c8377.png",
+    "static/media/Loginmobile.png": "/Man-Ki-Baat/static/media/Loginmobile.9082b0a6.png",
+    "static/media/SignUpmobile.png": "/Man-Ki-Baat/static/media/SignUpmobile.2cfbe329.png",
+    "static/media/Signupbackground.png": "/Man-Ki-Baat/static/media/Signupbackground.75c51b3e.png",
     "static/media/appstore.png": "/Man-Ki-Baat/static/media/appstore.fb1cfbae.png",
     "static/media/fbwhite.png": "/Man-Ki-Baat/static/media/fbwhite.223a06a5.png",
     "static/media/googleplay.png": "/Man-Ki-Baat/static/media/googleplay.986c8fb7.png",
@@ -28,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a6a11e3e.js",
-    "static/js/2.d2bd7e99.chunk.js",
-    "static/css/main.9bc72c5d.chunk.css",
-    "static/js/main.65e9d2ef.chunk.js"
+    "static/js/2.b7598c6b.chunk.js",
+    "static/css/main.f212cda3.chunk.css",
+    "static/js/main.5dc751a7.chunk.js"
   ]
 }
