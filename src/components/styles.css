@@ -51,7 +51,7 @@
  background-color: blue;
  margin-right: 20px;
  position: relative;
- top:80px;
+ top:50px;
 }
 #tophead{
     margin-left: 35%;
@@ -195,6 +195,7 @@
   transition: ease-in-out 0.5s;
  }
  
+ 
  @media screen and (max-width: 500px) {
      .hide{
          display: block;
@@ -202,6 +203,7 @@
      #tophead img{
          height: 60px;
      }
+     
   .signupContainer {
    height: 100vh;
    width: 100vw;

@@ -11,6 +11,11 @@ function SignUpLoginPage() {
         changeBg(s => !s)
     }
     return ( <div className = { state ? "signupContainer" : "loginContainer" } >
+   
+  
+    {/* <img  height="80px" src={Logo} alt="Logo"/> */}
+  
+
         <div className = "container-fluid">
         <div className = "row">
         <div className = "col-sm-1" > </div>
@@ -22,7 +27,7 @@ function SignUpLoginPage() {
         <div className = "col-sm-6 d-none d-lg-block d-md-block" >
         <div className = "container text-center mt-5 mb-5" >
         <img className = "img-fluid " id = "welcome" src = {welcomeImg}></img>
-        <img src={Logo} height="100px"></img> </div>  
+        <img src={Logo} id="logo" height="100px"></img> </div>  
         <Carousel> </Carousel> 
         </div> 
         </div> 

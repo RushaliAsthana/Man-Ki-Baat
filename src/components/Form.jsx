@@ -76,11 +76,9 @@ function Form(props)
 
          return <div className="container-fluid text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
          <div className="row " id="tophead">
-         {/* <div class="col-sm-12 "> */}
            {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader" className="white">Sign Up</h1>}
               <img src={signUpLogin?Logo:Logo1} className="imp-responsive hide" height="90px"/>
-              {/* </div> */}
-           <br/>
+           <br/><br/><br/>
            </div>
            <i data-toggle="tooltip" id="pwdicon" title="See Password" onClick={togPwd} className={seen?signUpLogin?"fa fa-lock fa-2x":"fa fa-lock fa-2x white":signUpLogin?"fa fa-unlock fa-2x":"fa fa-unlock fa-2x white"} ></i>
            <form id="formcontainer">
@@ -114,12 +112,12 @@ function Form(props)
            </div> 
            </form>
            <div class="container" id="social">
-           <span><Social name="fbIcon"></Social></span>
+           <span><Social id="fbIcon" name="fbIcon"></Social></span> 
         <span className={!signUpLogin&&"white"} id="conn"><b>Connect With</b> </span>
         <span><Social name="googleIcon"></Social></span>
            </div><br/>
            <div className="container">
-           <input id={signUpLogin?"signupbtn":"loginbtn"} className={signUpLogin?"btn btn-block border-black":"btn btn-block border-white"}  type="button"  onClick={test} value={signUpLogin?"Sign Up":"Already a member? Log In "} /> 
+           <input id={signUpLogin?"signupbtn":"loginbtn"} className={signUpLogin?"btn btn-block border-black":"btn btn-block border-white"}  type="button"  onClick={test} value={signUpLogin?"Not a Member? Sign Up":"Already a member? Log In "} /> 
           </div><br/>
      <div className="container-fluid row" id="apps">
      <img   id="playstore" className="img-responsive" src={Googleplay}/>
