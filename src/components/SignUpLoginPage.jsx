@@ -12,6 +12,7 @@ function SignUpLoginPage() {
     const [state, changeBg] = useState(true);
   useEffect(() => {
             document.body.style.backgroundSize="100vw 100vh";
+            document.body.style.backgroundRepeat="no-repeat"; 
             if(window.innerWidth>500)
             {
             {state? document.body.style.backgroundImage=`url(${BgImg})`: document.body.style.backgroundImage=`url(${SignupBg})`};
@@ -23,9 +24,6 @@ function SignUpLoginPage() {
            });
     function changingBg(s) {
         changeBg(s => !s)
-        // useEffect(() => {
-        //     document.body.style.backgroundImage = ;
-        //    }, []);
     }
     return ( <div  className ="container-fluid" >
         <div className = "container-fluid">
