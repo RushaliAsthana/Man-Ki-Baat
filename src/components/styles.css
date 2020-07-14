@@ -72,8 +72,8 @@
  background-repeat: no-repeat;
 }
 .loginContainer {
- height: 100vh;
- width: 100vw;
+ /* height: 100vh;
+ width: 100vw; */
  background-image: url("./images/Signupbackground.png");
  background-size: 100vw 100vh;
  background-repeat: no-repeat;
@@ -136,6 +136,10 @@
   border-left:2px solid white;
   
  }
+ .hide
+ {
+     display: none;
+ }
  #inp3 input,#inp3white input
  {background: transparent;
   height: 60px;
@@ -143,10 +147,11 @@
   border-right: 2px solid black;
   border-bottom: 2px solid black;
   border-top-left-radius: 0px;
+  padding-right: 50px;
   margin-top: -3px;
   border-left: transparent;
-  margin-left: 10px;
-  width:97%;
+  margin-left: 5px;
+  width:100%;
   border-bottom-left-radius:0px ;
  }
  #inp3white input{
@@ -191,6 +196,9 @@
  }
  
  @media screen and (max-width: 500px) {
+     .hide{
+         display: block;
+     }
      #tophead img{
          height: 60px;
      }

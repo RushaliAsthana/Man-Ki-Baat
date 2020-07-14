@@ -3,6 +3,7 @@ import './styles.css';
 import carouselImg from './images/illustration.png';
 import carouselImg2 from './images/illustration2.png';
 import carouselImg3 from './images/illustration3.png';
+
 function Carousel()
 {
   return( 

@@ -78,7 +78,7 @@ function Form(props)
          <div className="row " id="tophead">
          {/* <div class="col-sm-12 "> */}
            {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader" className="white">Sign Up</h1>}
-              <img src={signUpLogin?Logo:Logo1} className="imp-responsive" height="90px"/>
+              <img src={signUpLogin?Logo:Logo1} className="imp-responsive hide" height="90px"/>
               {/* </div> */}
            <br/>
            </div>
