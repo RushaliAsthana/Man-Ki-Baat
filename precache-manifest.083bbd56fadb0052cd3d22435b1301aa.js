@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9301b24f1ffd40b61d1171ee9407efc",
+    "revision": "b47855364f64198e8934902e849aa222",
     "url": "/Man-Ki-Baat/index.html"
   },
   {
-    "revision": "4b62aec7a45a61192d48",
-    "url": "/Man-Ki-Baat/static/css/main.87ac7357.chunk.css"
+    "revision": "a9ae888aa634db9f902b",
+    "url": "/Man-Ki-Baat/static/css/main.09cd690d.chunk.css"
   },
   {
     "revision": "266fa52ca0e9a88becfc",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Man-Ki-Baat/static/js/2.d2bd7e99.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b62aec7a45a61192d48",
+    "revision": "a9ae888aa634db9f902b",
     "url": "/Man-Ki-Baat/static/js/main.548cea31.chunk.js"
   },
   {
