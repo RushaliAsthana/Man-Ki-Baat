@@ -4,6 +4,7 @@ import welcomeImg from './images/welcome.png';
 import Form from "./Form";
 import './styles.css';
 import Logo from './images/logo.png';
+import Logo1 from "./images/logo1.png";
 function SignUpLoginPage() {
     const [state, changeBg] = useState(true);
    
@@ -12,9 +13,11 @@ function SignUpLoginPage() {
     }
     return ( <div className = { state ? "signupContainer" : "loginContainer" } >
    
-  
-    {/* <img  height="80px" src={Logo} alt="Logo"/> */}
-  
+    <nav class="navbar navbar-expand-sm  ">
+   <a className="ml-auto" href="#">
+    <img id="logo" src={state?Logo:Logo1} alt="Logo"/>
+  </a>
+</nav>
 
         <div className = "container-fluid">
         <div className = "row">
@@ -27,7 +30,7 @@ function SignUpLoginPage() {
         <div className = "col-sm-6 d-none d-lg-block d-md-block" >
         <div className = "container text-center mt-5 mb-5" >
         <img className = "img-fluid " id = "welcome" src = {welcomeImg}></img>
-        <img src={Logo} id="logo" height="100px"></img> </div>  
+        </div>  
         <Carousel> </Carousel> 
         </div> 
         </div> 

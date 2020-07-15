@@ -5,8 +5,7 @@ import Google from './images/Google.png';
 import Googlewhite from './images/Googlewhite.png';
 import Googleplay from './images/googleplay.png';
 import Appstore from './images/appstore.png';
-import Logo from "./images/logo.png";
-import Logo1 from "./images/logo1.png";
+
 import './styles.css';
 function Form(props)
 {
@@ -77,7 +76,6 @@ function Form(props)
          return <div className="container-fluid text-center"  id={signUpLogin?"SIGNUP-PAGE":"LOGIN-PAGE"}>
          <div className="row " id="tophead">
            {signUpLogin?<h1 id="loginheader">Login</h1>:<h1 id="signupheader" className="white">Sign Up</h1>}
-              <img src={signUpLogin?Logo:Logo1} className="imp-responsive hide" height="90px"/>
            <br/><br/><br/>
            </div>
            <i data-toggle="tooltip" id="pwdicon" title="See Password" onClick={togPwd} className={seen?signUpLogin?"fa fa-lock fa-2x":"fa fa-lock fa-2x white":signUpLogin?"fa fa-unlock fa-2x":"fa fa-unlock fa-2x white"} ></i>
