@@ -7,6 +7,9 @@
  animation: fadeInAnimation ease 3s ;
  animation-fill-mode: forwards; 
 } 
+#cont1{
+    margin-top: -50px;
+}
 
 @keyframes fadeInAnimation { 
  0% { 
@@ -83,7 +86,6 @@
   top:40px;
   left:40px;
   float: right;
-  /* margin-right: 20px; */
  }
  #pwdicon{
   position: relative;
@@ -162,21 +164,26 @@
  #LOGIN-PAGE input:focus,#SIGNUP-PAGE input:focus{
        text-align: center;
  }
- #LOGIN-PAGE input{
+ #SIGNUP-PAGE input{
      color:white;
  } 
- #LOGIN-PAGE ::placeholder{
+ #SIGNUP-PAGE ::placeholder{
   color: white;
  }
+ 
  .border-black{
   border: 2px solid black;
+  
   border-radius: 100px;
+  
  }
  .border-black:hover{
   background-color: black;
   color: white;
   transition: ease-in-out 0.5s;
+  
  }
+ 
  #loginsubmit:hover{
      color: palevioletred;
  }
@@ -189,6 +196,7 @@
   color: black;
   transition: ease-in-out 0.5s;
  }
+ 
  #loginbtn:hover{
   background-color: white;
   color: black;
@@ -199,7 +207,7 @@
  }
  
  
- @media screen and (max-width: 500px) {
+ @media screen  and (max-width: 500px) {
      .hide{
          display: block;
      }
@@ -213,14 +221,14 @@
    height: 100vh;
    width: 100vw;
    background-image: url("./images/Loginmobile.png");
-   background-size: cover;
+   background-size: 100vw 100vh;
    background-repeat: no-repeat;
 }
 .loginContainer {
    height: 100vh;
    width: 100vw;
    background-image: url("./images/SignUpmobile.png");
-   background-size: cover;
+   background-size: 100vw 100vh;
    background-repeat: no-repeat;
 }
 #loginheader,
@@ -231,15 +239,15 @@
 #unameicon{
  position: relative;
  top:40px;
- left:25px;
+ left:35px;
  float: right;
  
 }
 
 #pwdicon{
  position: relative;
- top:70px;
- right:50%;
+ top:80px;
+ right:55%;
 z-index: 1000;
 }
 
@@ -250,6 +258,17 @@ z-index: 1000;
 #formcontainer{
  margin-top: -40px;
 }
+@media screen and (max-width:359px)
+ {
+     #fb-icon,#gog-icon
+     {
+         height: 25px;
+     }
+     #conn{
+         font-size: 10px;
+     }
+     
+ }
 
  }
  @media screen and (width: 768px) and (height:1024px) {
