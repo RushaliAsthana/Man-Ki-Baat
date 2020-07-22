@@ -40,7 +40,7 @@ function SignUpLoginPage() {
         <div className = "col-sm-4" >
         <Router>
         <Switch>
-            <Route path="/Man-Ki-Baat/Login"  exact  render={(props) => <LoginPage {...props} fun={changingBg} />} ></Route>
+            <Route path="/Man-Ki-Baat/Login"    render={(props) => <LoginPage {...props} fun={changingBg} />} ></Route>
             <Route path="/Man-Ki-Baat/Signup" exact  render={(props) => <SignupPage {...props} fun={changingBg} />}></Route>
             </Switch>
         </Router>
