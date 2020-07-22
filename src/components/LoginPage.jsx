@@ -59,21 +59,20 @@ function Form(props)
              </div>
             </div>
             <div className="row">
-            <div className="col-sm-10 offset-1" id="inp2" >
+            <div className="col-sm-10 offset-1" id="inplog" >
             
              <input className="form-control" value={pswd.pwd} name="pwd" onChange={ handleChange} type={seen?"password":"text"} required placeholder="password"></input>
              </div>
             </div>
             <div className="row">
-            <div className="col-sm-10 offset-1" id="inp3">
-            <input id="loginsubmit" type="submit" className="btn btn-block" name="Submit"/>
+            <div className="col-sm-10 offset-1" >
+            <input id="loginsubmit" type="submit" className="btn btn-block mt-4 border-black " name="Submit"/>
              </div>
             </div>
            
            
            <div className="row">
            <div className="col-sm-6 offset-sm-3">
-           
            <button  className="btn btn-block border-black mt-4"  type="button" >Forgot Password</button> <br/>
         
         </div>

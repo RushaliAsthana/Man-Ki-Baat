@@ -93,7 +93,7 @@
   right:220px 
  
  }
- #inp1 input,#inp2 input,#inp3 input,#inp1white input,#inp2white input,#inp3white input{
+ #inp1 input,#inp2 input,#inp3 input,#inp1white input,#inp2white input,#inp3white input,#inplog input{
     
   border-radius: 100px;
   text-align: center;
@@ -119,7 +119,7 @@
   border-top: 2px solid white;
   border-right:2px solid white;
  }
- #inp2 input,#inp2white input
+ #inp2 input,#inp2white input,#inplog input
  {
   background: transparent;
   width:97%;
@@ -131,6 +131,10 @@
   border-left:2px solid black;
   border-right: transparent;
   border-bottom: transparent;
+ }
+ #inplog input{
+     border-bottom:2px solid black ;
+     border-bottom-right-radius: 0px;
  }
  #inp2white input
  {
@@ -183,9 +187,13 @@
   transition: ease-in-out 0.5s;
   
  }
- 
+ #loginsubmit{
+     font-weight: bold;
+ } 
  #loginsubmit:hover{
-     color: palevioletred;
+     color: whitesmoke;
+     background-color: rgb(199, 37, 199);
+     border: 2px solid rgb(199, 37, 199);
  }
  .border-white{
   border: 2px solid white;
